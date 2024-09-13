@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+  justify-content: center;
+  position: relative;
+}
+table {
+  position: absolute;
+  left: 12%;
+  top: 100px;
+}
+table, th,td {
+  font-size: 20px;
+  border: 1px solid rgb(132, 132, 132);
+  border-collapse: collapse;
+  padding: 15px;
+}
+thead {
+  background-color: rgb(208, 208, 208);
+  color: rgb(99, 0, 0);
+}
+input {
+  width: 75%;
+  border-radius: 5px;
+  outline: auto;
+  padding: 4px;
+  font-weight: bold;
+  text-align: center;
+}
+td {
+  color: rgb(0, 0, 0);
+}
+.TableBody {
+  background-color: rgb(208, 208, 208);
+  cursor:default;
+}
+.TableBody:hover{
+  background-color: rgb(245, 245, 245);
+}
+.error-message {
+  color: red;
+  font-size: 40px;
+  font-weight: bold;
+}
